@@ -25,3 +25,11 @@ macOS Catalina 10.15.5
 | 机箱 | 追风者 p300 air | 更推荐 p400 air |
 | 散热 | 雅浚 D3 | RGB YES! |
 | 显示器 | 创维 28U1 | mac尽量上4k显示器 |
+
+## EFI
+
+config.plist，请自行修改三码和 mac address
+
+机型我选择的是 iMac19,1 ，本机也是按照 iMac2019 的配置挑选的
+
+Root-PlatformInfo-Generic-MLB/SystemSerialNumber/SystemUUID/ROM
