@@ -28,8 +28,16 @@ macOS Catalina 10.15.5
 
 ## EFI
 
-config.plist，请自行修改三码和 mac address
+### 三码
 
-机型我选择的是 iMac19,1 ，本机也是按照 iMac2019 的配置挑选的
+config.plist，自行修改三码和mac-address: Root -> PlatformInfo -> Generic -> MLB / SystemSerialNumber / SystemUUID / ROM
 
-Root-PlatformInfo-Generic-MLB/SystemSerialNumber/SystemUUID/ROM
+注意，机型我选择的是 iMac19,1 ，请根据此机型生成三码
+
+### wifi 驱动
+
+由于我使用的是旧设备的 wifi 卡，需要添加驱动，不需要 wifi 驱动的 ①删除驱动；②删除配置文件里的相关设置
+
+驱动文件位置：Kexts -> AirportBrcmFixup / BrcmPatchRAM
+
+配置文件位置：Config.plist -> Kernel -> AirportBrcmFixup / BrcmPatchRAM
