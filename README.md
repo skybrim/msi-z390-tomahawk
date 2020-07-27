@@ -36,7 +36,9 @@ config.plist，自行修改三码和mac-address: Root -> PlatformInfo -> Generic
 
 ### wifi 驱动
 
-由于我使用的是旧设备的 wifi 卡，需要添加驱动，不需要 wifi 驱动的 ①删除驱动；②删除配置文件里的相关设置
+由于我使用的是旧设备的 wifi 卡，所以需要添加驱动 
+
+使用免驱的wifi卡的话： ①删除驱动；②删除配置文件里的相关设置
 
 驱动文件位置：Kexts -> AirportBrcmFixup / BrcmPatchRAM
 
