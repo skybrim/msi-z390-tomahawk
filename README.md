@@ -2,9 +2,9 @@
 
 [OpenCore Desktop 教程](https://dortania.github.io/OpenCore-Install-Guide/)
 
-OpenCore 0.5.9
+OpenCore 0.6.4
 
-macOS Catalina 10.15.5
+macOS Catalina 10.15.7
 
 ## 配置
 
